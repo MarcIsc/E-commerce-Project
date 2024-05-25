@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>SCSS</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <div class="header__nav__logo">
+                <img class="header__nav__logo--img" src="assets/images/logo-Imane&Marc v1.png" alt="img logo" >
+            </div>
+            <div class="header__nav__search">
+                <div class="header__nav__search__inputs">
+                    <input type="text" placeholder="Javascript Modification" class="header__nav__search__inputs--actives">                    
+                </div>
+                <a class="header__nav__search__btn">
+                    <i class="header__nav__search__btn--actives fa-solid fa-magnifying-glass"></i> 
+                </a>
+            </div>
+            <div class="header__nav__liens">
+                
+                <a href="" class="header__nav__liens--actives"><i class="header__nav__liens--icones fa-solid fa-cart-shopping fa-2xl"></i>Mon panier</a>
+                <a href="" class="header__nav__liens--actives"><i class="header__nav__liens--icones fa-solid fa-user fa-2xl"><i class="header__nav__liens--icones fa-solid fa-bars fa-2xs"></i></i>Mon compte</a>
+            </div>
+        </nav>
+        <div class="header__nav__menu">
+            <a class="header__nav__menu--actives" href="#">lien #</a>
+            <a class="header__nav__menu--actives" href="#">lien #</a>
+            <a class="header__nav__menu--actives" href="#">lien #</a>
+            <a class="header__nav__menu--actives" href="#">lien #</a>
+            <a class="header__nav__menu--actives" href="#">lien #</a>
+            <a class="header__nav__menu--actives" href="#">lien #</a>
+            <a class="header__nav__menu--actives" href="#">lien #</a>
+            <a class="header__nav__menu--actives" href="#">lien #</a>
+            <a class="header__nav__menu--actives" href="#">lien #</a>
+            <a class="header__nav__menu--actives" href="#">lien #</a>
+        </div>
+    </header> 
+    <div class="contenaire">
+        <section class="contenaire__section1">
+            <h2 class="contenaire__section1--titre ">BEM & SCSS</h2>
+        
+        </section>
+        <!-- un carousel de 4 image HTML / CSS  -->
+        <div class="contenaire__carousel">
+            <div class="contenaire__carousel__menu">
+              <label class="contenaire__carousel__menu--label" for="carousel-inputs-1"></label>
+              <label class="contenaire__carousel__menu--label" for="carousel-inputs-2"></label>
+              <label class="contenaire__carousel__menu--label" for="carousel-inputs-3"></label>
+            </div>
+            
+            <input class="contenaire__carousel--inputs" id="carousel-inputs-1" type="radio" name="carousel" checked>
+            <img class="slide-img contenaire__carousel--img" alt="image 1 " src="assets/images/caroussel_1.jpg">
+      
+            <input class="contenaire__carousel--inputs" id="carousel-inputs-2" type="radio" name="carousel">
+            <img class="slide-img contenaire__carousel--img" src="assets/images/caroussel_2.jpg">  
+      
+            <input class="contenaire__carousel--inputs" id="carousel-inputs-3" type="radio" name="carousel">
+            <img class="slide-img contenaire__carousel--img" alt="image 3" src="assets/images/caroussel_3.jpg">
+      
+        </div>
+    </div>
+    <div class="vitrine">
+        <div class="vitrine__afficheA">
+
+            <div class="vitrine__afficheA__contentA">
+                <div class="vitrine__afficheA__contentA--banniere">
+                    <p>Confection<i class=" fa-solid fa-scissors fa-2xl"></i>sur mesure</p>                    
+                </div>
+                <div class="vitrine__afficheA__contentA--img">
+                    <img src="assets/images/couture1.jpg" alt="">
+                </div>
+                <div class="vitrine__afficheA__contentA--action"> 
+                    <button><i><img src="assets/images/metre-ruban.png" alt=""></i>Prise de mesures  </button>
+                    <button><i><img src="assets/images/icons8-main-tenant-une-aiguille-50.png" alt=""></i>Conception & Création  </button> 
+                    <button><i><img src="assets/images/icons8-petite-robe-noire-50.png" alt=""></i>Ajustements & Retouches  </button>                    
+                </div>
+            </div>
+            
+            <div class="vitrine__afficheA__contentB">
+                <div class="vitrine__afficheA__contentB--banniere"> 
+                    <p>Prêt à porté<i class="fa-solid fa-venus-mars fa-2xl"></i></p>                   
+                </div>
+                <div class="vitrine__afficheA__contentB--img">
+                    <img src="assets/images/couture2.jpg" alt="">
+                </div>
+                <div class="vitrine__afficheA__contentB--action">
+                    <button><i><img src="assets/images/metre-ruban.png" alt=""></i>Prise de mesures  </button>
+                    <button><i><img src="assets/images/icons8-main-tenant-une-aiguille-50.png" alt=""></i>Conception & Création  </button> 
+                    <button><i><img src="assets/images/icons8-petite-robe-noire-50.png" alt=""></i>Ajustements & Retouches  </button>                    
+                </div>
+            </div>
+
+        </div>
+
+        <div class="vitrine__afficheB">
+
+            <div class="afficheB__content">
+                <div class="vitrine__afficheB__content--banniere">                                      
+                </div>
+                <div class="vitrine__afficheB__content--img">
+                    <img src="assets/images/couture3.jpg" alt="">
+                    <img src="assets/images/couture4.jpg" alt="">
+                </div>
+                <div class="vitrine__afficheB__content--action">                    
+                </div>
+            </div>
+
+        </div>      
+
+
+    <script src="assets/javascript/script.js"></script>
+    <script src="https://kit.fontawesome.com/e62e283fda.js" crossorigin="anonymous"></script>
+</body>
+</html>
